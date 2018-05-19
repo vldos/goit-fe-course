@@ -1,6 +1,6 @@
-.header_menu{
+/* .header_menu{
     text-align: center;
-    padding: 40px 0px 100px 0px;
+    padding: 40px 0px 100px 0px;  +
     
 }
 
@@ -8,7 +8,7 @@
     
     width: auto;
     margin: auto;
-    text-align: center;
+    text-align: center;  +
     
 
 }
@@ -19,7 +19,7 @@
     
 }
 
-.header_list{
+.header_list{   +
     display: inline-block;
     width: auto;
     list-style: none;
@@ -27,7 +27,7 @@
     margin: 0;
 }
 .list_item{
-    display: inline-block;
+    display: inline-block;  +
     margin-right: 100px;
 
 }
@@ -41,7 +41,7 @@
 }
 
 .link_item{
-    text-decoration: none;
+    text-decoration: none;   +
     text-transform: uppercase;
     font-size: 15px;
     color: black;
@@ -104,9 +104,108 @@ line-height: 1.5;
 }
 
 .button_item{
-    /* width: auto;
+
+    width: 160px;
+    height: 60px;
+    background-color: #ffffff;
+
+} */
+
+.header_menu{
+    text-align: center;
+    padding: 40px 0px 100px 0px;
+    
+}
+
+.nav_menu{
+    
+    width: auto;
     margin: auto;
-    text-align: center; */
+    text-align: center;
+}
+
+.header_list{
+    display: inline-block;
+    width: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list_item{
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.link_item{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+}
+
+.link_item:hover{
+color: #03a9f4;
+}
+
+.wrapper{
+    width: 1020px;
+    /* width: 900px; */
+    /* width: 90%; */
+    margin: 0 auto;
+    
+
+}
+
+.wrapper_article{
+    display: inline-block;
+    width: 420px;
+    vertical-align: top; /* http://prntscr.com/jjyz06 -что бы при разном количестве текста блоки не сьхали */
+    margin: 0px 60px 135px 0px;
+    /* margin-bottom: 135px; */
+
+
+
+}
+
+.logo{
+    text-transform: uppercase;
+    margin: 0px 0px 30px 0px;
+    color: #b4ad9e;
+    font-size: 16px;
+
+}
+
+.article_titel{
+    display: inline-block;
+    margin: 0px 0px 45px 0px;
+    font-size: 16px;
+    text-align: start;
+
+
+}
+
+.article_description{
+margin: 0;
+line-height: 1.5;
+font-size: 16px;
+
+}
+
+
+.wrapper_button{
+    text-align: center;
+    /* width: 1020px;
+    margin: 0 auto; */
+    /* padding-right: 70px;
+    margin-bottom: 60px; */
+
+}
+
+.button_item{
+    /* display: inline-block;
+vertical-align: middle; */
     width: 160px;
     height: 60px;
     background-color: #ffffff;
