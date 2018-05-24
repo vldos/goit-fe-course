@@ -219,7 +219,7 @@ top: 70px; left: 0; bottom: 0; right: 0;
     width: 347px;
     height: 500px;
     margin: 0px 30px 30px 0px;
-    text-align: left
+    text-align: left;
 }
 
 .news_item:nth-child(3n+3){
@@ -237,11 +237,9 @@ padding: 0;
 }
 .title_news::after{
     content: "";
-    margin: 0 auto;
     border-bottom: 3px solid #1abc9c;
     width: 135px;
     height: 0;
-
     position: absolute;
 top: 53px; left: 0; bottom: 0; right: 0;
 
