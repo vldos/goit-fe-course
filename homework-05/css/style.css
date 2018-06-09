@@ -129,34 +129,36 @@
     left: 432px;
 }
 
-.slider::before{
-    content: "\f104";
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color:rgba(84, 161, 143, .85);
-    font-size: 70px;
-    position: absolute;
-    top: 20px;
-    right: 850px;
-    text-align: center;
-    line-height: 100px;
-}
 
-.slider::after{
-    content: "\f104";
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color:rgba(84, 161, 143, .85);
-    font-size: 70px;
-    position: absolute;
-    top: 20px;
-    left: 850px;
-    text-align: center;
-    line-height: 100px;
-}
 
+.arrow_left{
+    display: block;
+        width: 100px;
+        height: 100px;
+        background-color:rgba(84, 161, 143, .85);
+        font-size: 70px;
+        position: absolute;
+        top: 20px;
+        right: 850px;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+    }
+    
+    .arrow_right{
+        content: "\f104";
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-color:rgba(84, 161, 143, .85);
+        font-size: 70px;
+        position: absolute;
+        top: 20px;
+        left: 850px;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+    }
 
 .products-section{
     margin: 0;
@@ -282,59 +284,56 @@ display: none;
 }
 
 
-.like:hover:before{
+.like:hover{
     background: #1abc9c;
     border-color: transparent;
 }
 
 
-.like::before{
+.like{
     display: inline-block;
-content: "\f004";
 color: white;
 font-size: 30px;
 width: 49px;
 height: 49px;
 border: 1px solid white;
 line-height: 49px;
-margin-right: 9px;
+margin-right: 3px;
 margin-bottom: 7px;
 
+}
+
+
+.mix:hover{
+    background: #1abc9c;
+    border-color: transparent;
 }
 
 .mix{
-    margin-left: -.40em;
-}
-.mix:hover:before{
-    background: #1abc9c;
-    border-color: transparent;
-}
-
-.mix::before{
     display: inline-block;
-content: "\f074";
+    /* margin-left: -.40em; */
 color: white;
 font-size: 30px;
 width: 49px;
 height: 49px;
 border: 1px solid white;
 line-height: 49px;
-margin-right: 9px;
+margin-right: 3px;
 margin-bottom: 7px;
 
 }
-.clock:hover:before{
+.clock:hover{
     background: #1abc9c;
     border-color: transparent;
 }
-.clock{
-    margin-left: -.40em;
-}
 
-.clock::before{
+
+
+.clock{
     display: inline-block;
-content: "\f017";
+/* content: "\f017"; */
 color: white;
+
 font-size: 30px;
 width: 49px;
 height: 49px;
@@ -348,9 +347,9 @@ margin-bottom: 7px;
 font-weight: 500;
 }
 
-.cart::before{
+.cart_icon{
     display: inline-block;
-content: "\f07a";
+/* content: "\f07a"; */
 color: white;
 font-size: 30px;
 width: 50px;
@@ -394,3 +393,5 @@ background-color: #323232;
     font-size: 16px;
     font-weight: 400;
 }
+
+
