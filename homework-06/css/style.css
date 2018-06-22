@@ -11,7 +11,8 @@
 }
 
 .main_head{
-    margin: 26px auto 108px auto;
+    margin: 0 auto 108px auto;
+    padding-top: 26px;
     width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -379,7 +380,30 @@
     height: 38px;
 }
 
-.button_footer{
+.search_area::-webkit-input-placeholder{
+font-weight: 300;
+font-style: italic;
+color: #cccccc;
+}
+.search_area::-moz-placeholder{
+    font-weight: 300;
+    font-style: italic;
+    color: #cccccc;
+    }
+
+
+    .search_area:-moz-placeholder{
+        font-weight: 300;
+        font-style: italic;
+        color: #cccccc;
+        }    
+        
+        .search_area:-ms-input-placeholder{
+            font-weight: 300;
+            font-style: italic;
+            color: #cccccc;
+            }      
+        .button_footer{
     width: 150px;
     border: none;
     height: 42px;
