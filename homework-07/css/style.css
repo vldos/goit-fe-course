@@ -16,6 +16,14 @@
     font-weight: 400;
     font-size: 26px;
 }
+.list_link{
+    text-decoration: none;
+    color: #222222;    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    }
 
 .list{
     margin: 0;
@@ -35,7 +43,9 @@
     text-transform: uppercase;
 }
 
-.list_item:hover{
+
+
+.list_link:hover{
     color: #fed136;
 }
 
